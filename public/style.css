@@ -1,13 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Titillium+Web:ital,wght@0,200;0,400;1,700&display=swap');
+
 body {
-  font-family: sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   margin: auto;
-  max-width: 1280px;
+  background: #fff;
 }
 
-div{
-  width: 500px;
-  height: 500px;
-  color: red;
-  background-color: aqua;
+.container{
+  background-color: #EAF0F2;
+  border-radius: 12px;
 }
+
+.nav-text{
+  justify-content: left;
+  font-weight: 700;
+  color: #2f5f74;
+  font-size: 24px;
+}
+
+
+.nav-text:hover{
+  text-decoration: none;
+  color: #2f5f74;
+}
+
+.navbar-size{
+  max-width: 1140px;
+  margin: auto;
+  height: 100px;
+}
+
+.navbar-collapse{
+  flex-basis: 0;
+}
+
+.navbar-section{
+  background-color: #EAF0F2;
+  margin-bottom: 42px;
+  height: 100px;
+
+}
+
+
+.nav-button{
+  background-color: #fff;
+  border-radius: 12px;
+  border-style: none;
+  margin-left: 48px;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #2f5f74;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: inherit;
+  letter-spacing: .25px;
+  line-height: normal;
+  padding: 11px 24px;
+  transition: background box-shadow 280ms ease;
+}
+
+.nav-button:hover{
+  background: #b9d5de;
+  color: #eaf0f2;
+  text-decoration: none;
+  transition-duration: .2s;
+}
+
+.nav-button:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+  }
+
+.navbar-expand-lg{
+  justify-content: right;
+  
+}
+
+.images{
+  margin-top: 72px;
+  max-width: 50%;
+  margin-bottom: 72px;
+}
+
+
+h1{
+  font-size: 36px;
+  color: #2f5f74;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: 500;
+  color: #2f5f74;
+  text-align: justify;
+  margin-bottom: 32px;
+}
+
+.introduce{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+}
+
+#introduce-button{
+  margin-left: 0px;
+  margin-top: 32px;
+  background-color: #2f5f74;
+  color: #eaf0f2;
+}
+
+#introduce-button:hover{
+  margin-left: 0px;
+  margin-top: 24px;
+  background-color: #eaf0f2;
+  color: #2f5f74;
+}
+
+
 
