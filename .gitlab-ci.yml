@@ -9,4 +9,4 @@ pages:
     - public
   only:
   - master
-  baseurl: https://klaudiuszu.github.io/FragmentDB/
+  baseurl: https://klaudiuszu.github.io/FragmentDB/public/index.html
