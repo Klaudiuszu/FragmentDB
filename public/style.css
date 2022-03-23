@@ -7,8 +7,21 @@ body {
 }
 
 .container{
-  background-color: #EAF0F2;
+  background-color: #fff;
   border-radius: 12px;
+  margin-bottom: 48px;
+  border-radius: 12px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .1) 0 3px 5px -1px,rgba(0, 0, 0, .05) 0 2px 1px 0,rgba(0, 0, 0, .05) 0 1px 20px 0;
+  box-sizing: border-box;
+  color: #2f5f74;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: inherit;
+  letter-spacing: .25px;
+  line-height: normal;
+  padding: 11px 24px;
+  transition: background box-shadow 280ms ease;  
 }
 
 .nav-text{
@@ -100,6 +113,7 @@ h2{
 .introduce{
   display: flex;
   flex-direction: row;
+  padding-bottom: 42px;
   justify-content: space-between;
   align-content: space-between;
   align-items: center;
@@ -117,6 +131,10 @@ h2{
   margin-top: 24px;
   background-color: #eaf0f2;
   color: #2f5f74;
+}
+
+.portfolio{
+  margin-bottom: 42px;
 }
 
 
