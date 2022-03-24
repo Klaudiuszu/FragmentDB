@@ -1,9 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Titillium+Web:wght@200;400;600;700;900&display=swap');
 
+
 body {
   font-family: 'Titillium Web', sans-serif;
   margin: auto;
   background: #fff;
+}
+
+header a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .container{
@@ -50,10 +63,9 @@ body {
 }
 
 .navbar-section{
-  background-color: #EAF0F2;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
   margin-bottom: 42px;
   height: 100px;
-
 }
 
 
@@ -153,7 +165,6 @@ h3{
 
 .elementor-image{
   font-size: 84px;
-  
 }
 
 .card-element{
@@ -206,4 +217,107 @@ h3{
 .line-3{
   height: 4px;
   background-color: #b9d5de;
+}
+
+#hamburger-icon {
+  display: none;
+}
+
+#hamburger-icon div {
+  display: flex;
+  width: 50px;
+  height: 8px;
+  background-color: #2f5f74;
+  margin: 6px 0;
+  transition: .3s;
+  border-radius: 2px;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-16px, 16px);
+  transform: rotate(-45deg) translate(-16px, 16px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-16px, -16px);
+  transform: rotate(45deg) translate(-16px, -14px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+
+.mobile-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mobile-menu a{
+  text-decoration: none;
+  justify-content: left;
+  font-weight: 700;
+  color: #2f5f74;
+  font-size: 24px;
+}
+
+.mobile-menu li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+@media(max-width: 768px) {
+  header div .navbar ul{
+    display: none;
+  }
+
+  .navbar{
+    position: absolute;
+  }
+
+  .navbar-section {
+    display: block;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 5px -1px,rgba(0, 0, 0, .05) 0 2px 1px 0,rgba(0, 0, 0, .05) 0 1px 20px 0;
+    transition-duration: .3s;
+  }
+
+
+  #hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+    padding-top: 20px;
+  }
+
+  #hamburger-icon div {
+    margin-right: 24px;
+    
+  }
+
+  .nav-button-mobile{
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .nav-button-mobile a{
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .mobile-menu{
+    display: none;
+  }
+
 }
