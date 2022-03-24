@@ -63,7 +63,7 @@ ul {
 }
 
 .navbar-section{
-  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-shadow: rgba(0, 0, 0, .1) 0 3px 5px -1px,rgba(0, 0, 0, .05) 0 2px 1px 0,rgba(0, 0, 0, .05) 0 1px 20px 0;
   margin-bottom: 42px;
   height: 100px;
 }
@@ -274,6 +274,7 @@ h3{
 .mobile-menu li {
   list-style-type: none;
   margin-bottom: 10px;
+  margin-left: -20px;
 }
 
 @media(max-width: 768px) {
@@ -320,4 +321,31 @@ h3{
     display: none;
   }
 
+  .introduce {
+    flex-direction: column;
+  }
+
+  .images {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px){
+
+  h1{
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+
+  .card-element {
+    line-height: 1;
+  }
 }
