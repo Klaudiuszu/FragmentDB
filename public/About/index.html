@@ -1,12 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+    <title>About</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
 <body>
-  <div>dasdasdsadasdasdw Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis hic repellendus facere quibusdam, necessitatibus numquam corporis. Hic molestias blanditiis veniam ratione minima illum atque, quibusdam quasi perferendis quae. Dignissimos, doloremque!</div>
+  <header class="navbar-section">
+
+    <div>
+      <nav class="navbar navbar-size ">
+        <div id="brand" class="navbar-collapse nav-text 
+        navbar-light">FragmentDB</div>
+        <ul>
+          <li><a class="nav-button" href="/public/index.html">Browse</a></li>
+          <li><a class="nav-button" href="#">Download</a></li>
+          <li><a class="nav-button" href="/public/About/index.html">About</a></li>
+      </ul> 
+      </nav>
+    </div>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)" >
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu nav-button-mobile">
+        <li><a href="#">Browse</a></li>
+        <li><a href="#">Download</a></li>
+        <li><a href="/public/About/index.html">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="introduce">
+    <div class="introduce-area">
+      <div class="all-text">
+        <img src="../About/img/HbxgGZ6E.png" height="400px">
+        <div class="text">
+          <div class="first-text">Kim jesteśmy?</div>
+          <div class="second-text">Jesteśmy grupą pasjonatów działającą w obszarze odkrywania i rozwoju innowacyjnych leków, tworzenia zaawansowanych narzędzi bioinformatycznych i nowych metod projektowania leków wykorzystujących metody uczenia maszynowego. Współpracujemy z firmami farmaceutycznymi i biotechnologicznymi z Polski i całego świata.</div>
+        </div>
+      </div>
+    </div>
+    <div class="introduce-area">
+      <div class="all-text">
+        <div class="text">
+          <div class="leadomise-text">LEADOMISE</div>
+          <div class="leadomise-second-text">program do wirtualnej modyfikacji związków aktywnych w poszukiwaniu kandydatów na nowe leki przy wsparciu metod sztucznej inteligencji</div>
+        </div>
+        <img src="../About/img/leadomisie.jpg" height="400px">
+      </div>
+    </div>
+    <div class="introduce-area">
+      <div class="all-text">
+        <img src="../About/img/fragmentise.png" height="400px">
+        <div class="text">
+          <div class="fragmentise-text">FRAGMENTISE</div>
+          <div class="fragmentise-second-text"> user-friendly program umożliwiający tworzenie "szytych na miarę" wirtualnych bibliotek fragmentów związków małocząsteczkowych</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="team-text">Team</div>
+
+  <div class="container">
+    <input type="radio" name="dot" id="one">
+    <input type="radio" name="dot" id="two">
+    <div class="main-card">
+      <div class="cards">
+        <div class="card">
+          <div class="content">
+            <div class="img">
+              <img src="../About/img/kot.jpg">
+            </div>
+            <div class="details">
+              <div class="name">Jagoda Jabłońska</div>
+              <div class="job">Data Scientist</div>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fa-solid fa-at"></i></a>
+              <a href="https://www.linkedin.com/in/jagoda-jablonska/"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://github.com/Klaudiuszu/FragmentDB"><i class="fa-brands fa-github-alt"></i></a>
+              <a href="#"><i class="fa-solid fa-address-card"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="img">
+            <img src="../About/img/cat2.jpg">
+            </div>
+            <div class="details">
+              <div class="name">Katarzyna Kamińska</div>
+              <div class="job">Research Fellow</div>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fa-solid fa-at"></i></a>
+              <a href="https://www.linkedin.com/in/khkaminska/"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://github.com/Klaudiuszu/FragmentDB"><i class="fa-brands fa-github-alt"></i></a>
+              <a href="#"><i class="fa-solid fa-address-card"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="img">
+              <img src="../About/img/cat3.jpg">
+            </div>
+            <div class="details">
+              <div class="name">Szynka</div>
+              <div class="job">Szef szefów</div>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fa-solid fa-at"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://github.com/Klaudiuszu/FragmentDB"><i class="fa-brands fa-github-alt"></i></a>
+              <a href="#"><i class="fa-solid fa-address-card"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="content">
+            <div class="img">
+              <img src="../About/img/kot.jpg">
+            </div>
+            <div class="details">
+              <div class="name">Leadomise</div>
+              <div class="job">lorem lorem</div>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fa-solid fa-at"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-github-alt"></i></a>
+              <a href="#"><i class="fa-solid fa-address-card"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="img">
+              <img src="../About/img/kot.jpg">
+            </div>
+            <div class="details">
+              <div class="name">Person</div>
+              <div class="job">Data Engineer</div>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fa-solid fa-at"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-github-alt"></i></a>
+              <a href="#"><i class="fa-solid fa-address-card"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="img">
+              <img src="../About/img/kot.jpg">
+            </div>
+            <div class="details">
+              <div class="name">Matylda</div>
+              <div class="job">lore mlorem</div>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fa-solid fa-at"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-github-alt"></i></a>
+              <a href="#"><i class="fa-solid fa-address-card"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="button">
+      <label for="one" class=" active one"></label>
+      <label for="two" class="two"></label>
+    </div>
+  </div>
+
+  <script src="/public/index.js"></script>
 </body>
 </html>
