@@ -6,7 +6,7 @@ body {
   margin: auto;
   background: #fff;
   min-height: 100vh;
-  width: 100%;
+  
 }
 
 header a {
@@ -551,7 +551,6 @@ h3{
 }
 
 .contact-mail a:hover {
-  font-size: 28px;
   color: #b9d5de;
 }
 
@@ -598,7 +597,49 @@ footer i:hover {
   transition: all .2s ease;
 }
 
+@media(max-width:1920px) {
 
+  .first-text {
+    font-size: 62px;
+  }
+
+  .second-text {
+    font-size: 28px;
+  }
+
+  .leadomise-text {
+    font-size: 62px;
+  }
+
+  .leadomise-second-text {
+    font-size: 28px;
+  }
+
+  .fragmentise-text {
+    font-size: 62px;
+  }
+
+  .fragmentise-second-text {
+    font-size: 28px;
+  }
+
+  .all-text img {
+    height: 300px;
+  }
+
+}
+
+@media(max-width:1200px) {
+  
+  .all-text {
+    flex-direction: column;
+  }
+
+  .footer-section img {
+    max-width: 200px;
+  }
+
+}
 
 @media(max-width:990px ) {
   header div .navbar ul{
@@ -716,6 +757,55 @@ footer i:hover {
   .images {
     max-width: 100%;
   }
+
+  .first-text {
+    font-size: 42px;
+  }
+
+  .second-text {
+    font-size: 21px;
+  }
+
+  .leadomise-text {
+    font-size: 42px;
+  }
+
+  .leadomise-second-text {
+    font-size: 28px;
+  }
+
+  .fragmentise-text {
+    font-size: 42px;
+  }
+
+  .fragmentise-second-text {
+    font-size: 21px;
+  }
+
+  .team-text {
+    font-size: 42px;
+  }
+
+  .all-text img {
+    height: 300px;
+  }
+
+  .footer-section img {
+    max-width: 150px;
+  }
+
+  .contact-mail {
+    font-size: 18px;
+  }
+
+  .contact-information a{
+    font-size: 14px;
+  }
+
+  .footer-icon a {
+    font-size: 28px;
+  }
+
 }
 
 @media screen and (max-width: 600px){
@@ -740,4 +830,65 @@ footer i:hover {
   .elementor-image{
     font-size: 42px;
   }
+}
+
+@media screen and (max-width: 500px){
+
+  .first-text {
+    font-size: 28px;
+  }
+
+  .second-text {
+    font-size: 18px;
+  }
+
+  .leadomise-text {
+    font-size: 28px;
+  }
+
+  .leadomise-second-text {
+    font-size: 18px;
+  }
+
+  .fragmentise-text {
+    font-size: 28px;
+  }
+
+  .fragmentise-second-text {
+    font-size: 18px;
+  }
+
+  .all-text img {
+    height: 150px;
+  }
+
+  .footer-section {
+    height: 650px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-information {
+    align-items: center;
+  }
+
+  .footer-icon{
+    row-gap: 1px;
+  }
+
+  .footer-icon a {
+    margin: 20px 0;
+  }
+
+  footer {
+    height: 50px;
+  }
+
+  footer i{
+    font-size: 24px;
+  }
+
 }
