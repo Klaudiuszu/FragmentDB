@@ -476,6 +476,130 @@ h3{
   margin-left: -20px;
 }
 
+.footer-section {
+    display: block;
+    background-color: #fff;
+    box-shadow: #0000001a 0 1px 5px -1px,rgba(0, 0, 0, .05) 0 1px 1px 0,rgba(0, 0, 0, .05) 0 1px 20px 0;
+    transition-duration: .3s;
+    height: 350px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding-top: 50px;
+}
+
+.contact-container {
+  font-size: 18px;
+  display: flex;
+  justify-content:center;
+  font-weight: 600;
+}
+
+.contact-information {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+}
+
+.contact-information a {
+  margin-top: 20px;
+}
+
+.footer-container .contact-information a {
+  transition:all ease .1s;
+}
+
+.footer-container .contact-information a:hover {
+  color:#b9d5de;
+}
+
+#first-text {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#carrers-information {
+  color: #2f5f74;
+  font-weight: 700;
+}
+
+#carrers-information:hover {
+  color: black;
+}
+
+.contact-mail {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: 28px;
+  color: #2f5f74;
+  transition: all .2s ease;
+}
+
+.contact-mail a {
+  margin-bottom: 42px;
+}
+
+.footer-section img {
+  max-width: 450px;
+}
+
+.contact-mail a:hover {
+  font-size: 28px;
+  color: #b9d5de;
+}
+
+.footer-icon {
+  display: flex;
+  flex-direction: column;
+  row-gap: 72px;
+  font-size: 42px;
+  color: #2f5f74;
+  cursor: pointer;
+  width: 120px;
+}
+
+.footer-icon a {
+  color: #2f5f74;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icon i:hover {
+  color: #b9d5de;
+  transition: all .2s ease;
+}
+
+footer {
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 24px;
+}
+
+footer i {
+  color: #2f5f74;
+  font-size: 42px;
+  cursor: pointer;
+  align-items: center;
+  
+}
+
+footer i:hover {
+  color: #b9d5de;
+  font-size: 42px;
+  transition: all .2s ease;
+}
+
+
+
 @media(max-width:990px ) {
   header div .navbar ul{
     display: none;
